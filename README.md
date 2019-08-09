@@ -9,3 +9,5 @@
  https://www.drupal.org/docs/user_guide/en/prevent-cache-clear.html
  
  - `srcset` and responsive images: https://chromatichq.com/blog/responsive-images-drupal-8-using-srcset
+ 
+ - When you have a renderable array (`$variables` in a preprocess context is a render array now) you can set `$renderable['#cache']['max-age'] = 0` to avoid having to flush the render cache after *every* code change.
