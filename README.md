@@ -5,3 +5,5 @@
  
  - Views Template names (Twig debug does not output this info): https://api.drupal.org/api/drupal/core%21modules%21views%21views.theme.inc/group/views_templates/8.2.x
  
+ - `cc` is very useful DX tool. Clearing the render cache is currently a very frequent event.
+ https://www.drupal.org/docs/user_guide/en/prevent-cache-clear.html
