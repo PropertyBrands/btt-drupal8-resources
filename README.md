@@ -10,3 +10,5 @@
  - `srcset` and responsive images: https://chromatichq.com/blog/responsive-images-drupal-8-using-srcset
  
  - When you have a renderable array (`$variables` in a preprocess context is a render array now) you can set `$renderable['#cache']['max-age'] = 0` to avoid having to flush the render cache after *every* code change.
+ 
+ - Rendering an exposed form (Views) programmatically: https://www.drupal.org/forum/support/module-development-and-code-questions/2017-02-20/how-to-programmatically-render-a-view
