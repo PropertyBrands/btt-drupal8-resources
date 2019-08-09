@@ -7,3 +7,5 @@
  
  - `cc` is very useful DX tool. Clearing the render cache is currently a very frequent event.
  https://www.drupal.org/docs/user_guide/en/prevent-cache-clear.html
+ 
+ - `srcset` and responsive images: https://chromatichq.com/blog/responsive-images-drupal-8-using-srcset
