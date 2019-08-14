@@ -12,3 +12,5 @@
  - When you have a renderable array (`$variables` in a preprocess context is a render array now) you can set `$renderable['#cache']['max-age'] = 0` to avoid having to flush the render cache after *every* code change.
  
  - Rendering an exposed form (Views) programmatically: https://www.drupal.org/forum/support/module-development-and-code-questions/2017-02-20/how-to-programmatically-render-a-view
+
+- Don't manage modules with drush anymore. Download them with `composer install drupal/MY_PROJECT_NAME`. If you need to _install_ the module from the CLI after -- use `vendor/bin/drupal moi MY_PROJECT_NAME`.
