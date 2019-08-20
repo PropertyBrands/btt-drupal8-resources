@@ -24,4 +24,11 @@
     - [Hooks](https://reactjs.org/docs/hooks-intro.html)
     
     - [Functional Components](https://programmingwithmosh.com/react/react-functional-components/)
-- Serializing Nodes with the Serializer services and Type Data API: https://drupal.stackexchange.com/questions/191419/drupal-8-node-serialization-to-json
+- Serializing Nodes with the Serializer services and Type Data API:
+```
+$serializer = \Drupal::service('serializer');
+// Useful for `drupalSettings` or PHP
+$arrayOfData = $serializer->normalize($entity, 'json', ['plugin_id' => 'entity']);
+// Useful for API responses or other output scenarios
+$jsonString = $serializer->serialize($entity, 'json', ['plugin_id' => 'entity'])
+```
