@@ -29,7 +29,7 @@
     
     {{ drupal_view('block_name') }}
     ```
-    Arguments are passed as contextual filter values in the order they are supplied (see docs)[[Twig Tweak](https://www.drupal.org/docs/8/modules/twig-tweak/cheat-sheet)].
+    Arguments are passed as contextual filter values in the order they are supplied [see docs](https://www.drupal.org/docs/8/modules/twig-tweak/cheat-sheet).
     
     **Of note**: We have had some difficulty using entity references via contextual links (one content type referencing another content type in its display, etc.)  
 
