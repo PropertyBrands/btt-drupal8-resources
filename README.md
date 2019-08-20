@@ -32,3 +32,5 @@ $arrayOfData = $serializer->normalize($entity, 'json', ['plugin_id' => 'entity']
 // Useful for API responses or other output scenarios
 $jsonString = $serializer->serialize($entity, 'json', ['plugin_id' => 'entity'])
 ```
+
+- Implement new `Serializers` for entity types: https://www.drupal.org/docs/8/api/serialization-api/changing-the-way-serializer-handles-entities
