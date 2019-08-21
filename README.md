@@ -56,4 +56,6 @@
  ```
 
  - Implement new `Serializers` for entity types: https://www.drupal.org/docs/8/api/serialization-api/changing-the-way-serializer-handles-entities
+ 
+  - JSON:API vs RESTful Web Services: https://www.drupal.org/docs/8/modules/jsonapi/jsonapi-vs-cores-rest-module
 
