@@ -1,5 +1,7 @@
 # Links and Resources for Drupal 8
 
+ - `hook_menu()` replacement: https://www.drupal.org/docs/8/converting-drupal-7-modules-to-drupal-8/d7-to-d8-upgrade-tutorial-convert-hook_menu-and-hook
+ 
  - Using the services container and dependency injection: https://www.drupal.org/docs/8/api/services-and-dependency-injection/services-and-dependency-injection-in-drupal-8
 
  - Add a class to a field's markup based on a value: https://www.drupal.org/forum/support/module-development-and-code-questions/2017-03-31/add-class-to-field-in-drupal-8
