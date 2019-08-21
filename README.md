@@ -3,6 +3,8 @@
  - `hook_menu()` replacement: https://www.drupal.org/docs/8/converting-drupal-7-modules-to-drupal-8/d7-to-d8-upgrade-tutorial-convert-hook_menu-and-hook
 
 - Routing `.yml` structure: https://www.drupal.org/node/2092643#section-requirements
+
+- Managing config: Make changes, `config:export`, PULL from upstream, resolve conflicts (they are usually easy), `config:import`, PUSH and open PR.
  
  - Using the services container and dependency injection: https://www.drupal.org/docs/8/api/services-and-dependency-injection/services-and-dependency-injection-in-drupal-8
 
