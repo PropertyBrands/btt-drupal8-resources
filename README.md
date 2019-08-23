@@ -6,6 +6,8 @@
 
 - Managing config: Make changes, `config:export`, PULL from upstream, resolve conflicts (they are usually easy), `config:import`, PUSH and open PR.
  
+ - Running PHPUnit tests: https://www.drupal.org/docs/8/phpunit/running-phpunit-tests
+ 
  - Using the services container and dependency injection: https://www.drupal.org/docs/8/api/services-and-dependency-injection/services-and-dependency-injection-in-drupal-8
 
  - Add a class to a field's markup based on a value: https://www.drupal.org/forum/support/module-development-and-code-questions/2017-03-31/add-class-to-field-in-drupal-8
