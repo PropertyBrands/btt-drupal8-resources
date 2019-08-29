@@ -69,3 +69,4 @@
  
   - JSON:API vs RESTful Web Services: https://www.drupal.org/docs/8/modules/jsonapi/jsonapi-vs-cores-rest-module
 
+- Programmatically create blocks: https://hechoendrupal.gitbooks.io/drupal-console/en/commands/generate-plugin-block.html
